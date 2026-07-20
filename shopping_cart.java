@@ -27,6 +27,9 @@ public class shopping_cart{
     System.out.println("\nYou have bought " + quantity + " " + item + "/s");
     System.out.println("Your total is " + currency + total);
 
+    
+
+
 
 
 
