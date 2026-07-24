@@ -1,7 +1,7 @@
 
 public class math_class{
     public static void main(String[] args) {
-        
+
 
         double result;
         double result1;
@@ -11,7 +11,7 @@ public class math_class{
         double result5;
         double result6;
         double result7;
-        
+
 
         result = Math.pow(2, 5);
         result1 = Math.abs(-5);
@@ -30,6 +30,8 @@ public class math_class{
         System.out.println(result5);
         System.out.println(result6);
         System.out.println(result7);
+
+
 
 
     }
