@@ -9,7 +9,7 @@ public class function{
         int a;
         int b; 
         int c;
-        int sum =0;
+        int sum = 0;
         
         Scanner scanner = new Scanner(System.in);
 
