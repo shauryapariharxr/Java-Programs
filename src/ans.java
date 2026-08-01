@@ -5,8 +5,7 @@ public class ans{
         
         Scanner scanner = new Scanner(System.in);
 
-        int a;
-
+        int a = 0;
         a = scanner.nextInt();
         System.err.println("Enter your year");
 
