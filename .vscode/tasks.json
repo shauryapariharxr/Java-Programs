@@ -1,19 +1,21 @@
 {
-  "version": "2.0.0",
-  "tasks": [
-    {
-      "label": "Compile and Run Java",
-      "type": "shell",
-      "command": "cmd",
-      "args": [
-        "/c",
-        "if not exist bin mkdir bin && javac -d bin src\\${fileBasename} && java -cp bin ${fileBasenameNoExtension}"
-      ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "problemMatcher": "$javac"
-    }
-  ]
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and Run Java",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "javac -d \"${workspaceFolder}\\bin\" \"${file}\" && java -cp \"${workspaceFolder}\\bin\" ${fileBasenameNoExtension}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$javac"
+            ]
+        }
+    ]
 }

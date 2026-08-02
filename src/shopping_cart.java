@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class shopping_cart{
     public static void main(String[] args) {
-        
-        //SHOPPING CART PROGRAM 
+
+        //SHOPPING CART PROGRAM
     Scanner scanner = new Scanner(System.in);
 
     String item;
@@ -27,7 +27,7 @@ public class shopping_cart{
     System.out.println("\nYou have bought " + quantity + " " + item + "/s");
     System.out.println("Your total is " + currency + total);
 
-    
+
 
 
 

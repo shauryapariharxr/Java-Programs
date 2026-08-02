@@ -1,4 +1,5 @@
 
+
 import java.util.Scanner;
 
 
@@ -11,7 +12,7 @@ public class swap{
 
         int a;
         int b;
-        int c = 0;
+        int c;
 
 
 

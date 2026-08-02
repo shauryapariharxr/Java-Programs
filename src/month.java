@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class month{
     public static void main(String[] args) {
-        
+
         Scanner scanner = new Scanner(System.in);
 
         int m;
@@ -18,11 +18,11 @@ public class month{
 
             System.err.println("31 Days");
 
-        
+
         }else if (m==4 || m==6 || m==9 || m==11) {
 
             System.err.println("30 Days");
-            
+
         }else if (m==2){
 
             if ((y % 400 == 0) || (y % 4 == 0 && y % 100 != 0)) {
