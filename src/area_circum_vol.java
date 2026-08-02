@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class area_circum_vol{
     public static void main(String[] args) {
-        
+
         double area;
         double volume;
         double circum;
@@ -26,10 +26,7 @@ public class area_circum_vol{
 
         switch (num) {
 
-
-
-
-            case 1:{
+        case 1:{
 
 
                 System.err.print("Enter your Radius: ");
@@ -61,12 +58,9 @@ public class area_circum_vol{
                 System.out.println("Your area of square is: " + area);
                 System.out.println("Your volume of square is: " + volume);
 
-
-
             }
 
             break;
-
 
             case 3:{
 
@@ -90,14 +84,14 @@ public class area_circum_vol{
             }
 
             break;
-                
-            
+
+
             default:
                 throw new AssertionError();
         }
 
 
-    
+
 
     }
 }
