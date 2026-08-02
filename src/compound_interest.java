@@ -10,7 +10,7 @@ public class compound_interest{
     double principle;
     double rate;
     int timescompound;
-    int year = 0;
+    int year;
     double amount;
 
     System.out.print("Enter your principle amount: ");
@@ -27,7 +27,8 @@ public class compound_interest{
 
 
    amount = principle * Math.pow(1 + rate / timescompound, timescompound * year);
+   amount = Math.ceil(amount);
 
-   System.out.println("The amount after " + year + "is: $" + amount );
+   System.out.printf("The amount after %d is $ %.2f\n", year, amount);
   }
 }
