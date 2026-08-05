@@ -1,11 +1,3 @@
-*.class
-
-
-
-
 bin/
-
-out/
-
+*.class
 .vscode/
-
