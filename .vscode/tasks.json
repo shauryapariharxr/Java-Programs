@@ -4,11 +4,7 @@
         {
             "label": "Build and Run Java",
             "type": "shell",
-            "command": "cmd",
-            "args": [
-                "/c",
-                "javac -d \"${workspaceFolder}\\bin\" \"${file}\" && java -cp \"${workspaceFolder}\\bin\" ${fileBasenameNoExtension}"
-            ],
+            "command": "javac -d \"${workspaceFolder}\\bin\" \"${file}\" && java -cp \"${workspaceFolder}\\bin\" ${fileBasenameNoExtension}",
             "group": {
                 "kind": "build",
                 "isDefault": true
